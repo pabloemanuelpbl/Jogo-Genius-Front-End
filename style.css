@@ -1,0 +1,69 @@
+/*[blue, yellow, red, green]*/
+body {
+    margin: 0;
+    background-color: rgb(0 255 170);
+}
+
+.main-menu {
+    background-color: aqua;
+    width: 10vw;
+    height: 40vh;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.buttonStart {
+    width: 10vw;
+    background-color: rgb(30, 255, 0);
+}
+
+.main-game {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-image: radial-gradient(circle,rgb(181, 180, 180),rgb(131, 131, 131),rgb(0, 0, 0));
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.divBlue {
+    grid-area: azul;
+    background-image: linear-gradient(to bottom right, rgb(126, 126, 255), rgb(0, 0, 155));
+    border-bottom-right-radius: 100%;
+}
+
+.divRed {
+    grid-area: vermelho;
+    background-image: linear-gradient(to bottom left,rgb(174, 0, 0), red);
+    border-top-right-radius: 100%;
+}
+
+.divYellow {
+    grid-area: amarelo;
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 0), rgb(179, 179, 3));
+    border-bottom-left-radius: 100%;
+}
+
+.divGreen {
+    grid-area: verde;
+    background-image: linear-gradient(to bottom right, green,rgb(3, 169, 3));
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.4;
+    background-image: black;
+}
