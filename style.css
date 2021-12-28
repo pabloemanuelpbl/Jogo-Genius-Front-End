@@ -31,7 +31,7 @@ body {
     'amarelo azul';
     grid-gap: 10px;
     border: 1px solid #ffffff;
-    background-image: radial-gradient(circle,rgb(181, 180, 180),rgb(131, 131, 131),rgb(0, 0, 0));
+    background-image: radial-gradient(circle,rgb(181, 180, 180),rgb(0, 0, 0),rgb(0, 0, 0));
     border-radius: 100%;
     width: 600px;
     height: 600px;
@@ -64,6 +64,6 @@ body {
 }
 
 .selected {
-    opacity: 0.4;
-    background-image: black;
+    opacity: 0.3;
+    background-image: rgb(255, 255, 255);
 }
