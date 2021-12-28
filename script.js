@@ -52,7 +52,7 @@ function validar(retorno) {
         window.alert('Fim de Jogo!!')
         if(estagio.length>recorde){
             recorde = estagio.length
-            record.innerText = recorde
+            record.innerText = recorde-1b
             button.hidden = false
             estagio = 1
             n = 2
